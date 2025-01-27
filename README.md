@@ -1,13 +1,33 @@
 # Zeotap-Data-Science-Assignment
 # Assignment Tasks:
 Task 1: Exploratory Data Analysis (EDA) and Business Insights
-1. Perform EDA on the provided dataset.
-2. Derive at least 5 business insights from the EDA.
-○ Write these insights in short point-wise sentences (maximum 100 words per
-insight).
+Steps:
+Data Loading:
+
+Load the provided dataset(s) into a Pandas DataFrame.
+Explore the structure of the dataset (e.g., head(), info(), describe()).
+Data Cleaning:
+
+Handle missing values, duplicates, and outliers.
+Convert data types if necessary (e.g., date columns to datetime).
+Exploratory Analysis:
+
+Univariate Analysis: Analyze distributions (e.g., histograms, boxplots) for individual variables.
+Bivariate Analysis: Explore relationships between variables (e.g., scatter plots, correlation matrices).
+Trend Analysis: Identify patterns over time (e.g., sales trends, signup trends).
+Visualization:
+
+Use libraries like Matplotlib and Seaborn for visual representation.
+Create charts to analyze category sales, customer signups, transaction distributions, etc.
+Business Insights:
+
+Derive 5 actionable insights from the data.
+Write insights in concise, point-wise sentences (maximum 100 words per insight).
 Deliverables:
-● A Jupyter Notebook/Python script containing your EDA code.
-● A PDF report with business insights (maximum 500 words).
+Jupyter Notebook/Python Script:
+Include all code for EDA and visualizations.
+PDF Report:
+Contain 5 business insights and relevant visualizations.
 
 ![category_sales](https://github.com/user-attachments/assets/28203f00-ec0a-4075-8877-e71eeac98497)
 ![customer_signup_trend](https://github.com/user-attachments/assets/d35d5ad5-584f-49c1-b7ca-25b47e17c11c)
@@ -15,7 +35,8 @@ Deliverables:
 ![monthly_sales_trend](https://github.com/user-attachments/assets/76e951e1-d933-4992-a5c5-c7187a0773a2)
 ![regional_sales](https://github.com/user-attachments/assets/d0e7717a-cd0d-4a02-ab24-74c39b06afa3)
 
-Task 2: 
+
+Task 2:***
 Lookalike Model Build a Lookalike Model that takes a user's information as input and recommends 3 similar
 customers based on their profile and transaction history. The model should:
 ● Use both customer and product information.
@@ -33,6 +54,11 @@ Evaluation Criteria:
 ● Model accuracy and logic.
 
 ● Quality of recommendations and similarity scores.
+
+
+
+
+
 
 
 Task 3: Customer Segmentation / Clustering
