@@ -39,8 +39,6 @@ Task 2:
 
 
 
-
-
 Task 3:
   Customer Segmentation / Clustering
   Perform customer segmentation using clustering techniques. Use both profile information
